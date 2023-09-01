@@ -6,7 +6,7 @@ class CalcularHipotenusa
 {
     static void Main()
     {
-        double cateto1, cateto2, hipotenusa;
+       double cateto1, cateto2, hipotenusa;
 
         Console.WriteLine("Ingresa la longitud del cateto a: ");
         if (double.TryParse(Console.ReadLine(), out cateto1))
